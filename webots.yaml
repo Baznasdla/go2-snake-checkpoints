@@ -1,8 +1,5 @@
-version: R2022b
-world: worlds/example.wbt
-controllers:
-  participant:
-    type: python
-    file: participant.py
+publish: true
+type: benchmark
+
 
 
