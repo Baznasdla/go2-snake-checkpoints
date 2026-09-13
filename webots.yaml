@@ -2,6 +2,7 @@ version: R2022b
 world: worlds/example.wbt
 controllers:
   participant:
-    language: python
+    type: python
     file: participant.py
+
 
