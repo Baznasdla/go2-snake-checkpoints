@@ -267,7 +267,7 @@ DEF ROBOT1 Robot {
     density -1
     mass 0.5
   }
-  controller "slave"
+  controller "participant"
 }
 DEF ROBOT2 Robot {
   translation -0.511288 -0.288898 0
@@ -486,7 +486,7 @@ DEF ROBOT2 Robot {
     density -1
     mass 0.5
   }
-  controller "slave"
+  controller "participant"
 }
 DEF ROBOT3 Robot {
   translation 0 -0.15 0
@@ -705,7 +705,7 @@ DEF ROBOT3 Robot {
     density -1
     mass 0.5
   }
-  controller "slave"
+  controller "participant"
 }
 Robot {
   children [
@@ -713,6 +713,6 @@ Robot {
     }
   ]
   name "Driver"
-  controller "driver"
+  controller "participant"
   supervisor TRUE
 }
