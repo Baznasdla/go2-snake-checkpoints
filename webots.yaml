@@ -1,0 +1,6 @@
+version: R2022b
+world: worlds/example.wbt
+controllers:
+  participant:
+    type: python
+    path: participant.py
